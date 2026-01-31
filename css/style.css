@@ -804,6 +804,8 @@ nav .nav-buttons .icon-button:hover {
 }
 
 .skill-item i {
+    font-family: "bootstrap-icons" !important; 
+    display: inline-block; 
     font-size: 28px;
     /* Menerapkan warna gradien pada ikon */
     background: var(--accent-gradient);
@@ -2457,4 +2459,5 @@ body {
 /* Memastikan padding atas cukup karena navbar Fixed */
 section {
     scroll-margin-top: 80px;
+
 }
