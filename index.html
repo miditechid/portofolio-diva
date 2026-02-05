@@ -45,7 +45,7 @@
         </div>
     </nav>
 
-    <section id="about" class="hero-section is-visible">
+    <section id="about" class="hero-section">
         <!-- Teks Outline Background -->
         <div class="hero-bg-text top-text">Personal</div>
         <div class="hero-bg-text bottom-text">Portfolio</div>
@@ -58,7 +58,7 @@
                 <p class="reveal hero-tagline">Web Developer | UI/UX Designer</p>
 
                 <div class="reveal cta-wrapper">
-                    <a href="http://localhost:8000/documents/cv.pdf" download="" class="cta-download">
+                    <a href="documents/cv.pdf" download class="cta-download">
                         DOWNLOAD CV
                     </a>
                 </div>
@@ -66,7 +66,7 @@
 
             <!-- Kolom Tengah: Gambar -->
             <div class="hero-image-wrapper">
-                <img src="./index_files/foto1.png" alt="Diva Carinda" id="hero-photo">
+                <img src="images/foto1.png" alt="Diva Carinda" id="hero-photo">
             </div>
 
             <!-- Kolom Kanan: Social Bar -->
@@ -81,7 +81,7 @@
         </div>
     </section>
 
-    <section id="about-details" class="about-custom-section is-visible">
+    <section id="about-details" class="about-custom-section">
         <!-- Efek Radial Gradient di Background -->
         <div class="about-radial-glow"></div>
 
@@ -91,7 +91,7 @@
             <div class="about-image-side reveal-left">
                 <div class="image-wrapper">
                     <div class="offset-border"></div>
-                    <img src="./index_files/poto.png" alt="Diva Profile">
+                    <img src="images/poto.png" alt="Diva Profile">
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
                     <!-- Tulisan PROFILE sebagai background tombol -->
                     <div class="bg-outline-profile">PROFILE</div>
 
-                    <a href="http://localhost:8000/#contact" class="touch-button-new">
+                    <a href="#contact" class="touch-button-new">
                         <span class="btn-text">GET IN TOUCH</span>
                         <i class="bi bi-arrow-right-circle-fill"></i>
                     </a>
@@ -145,7 +145,7 @@
                 <button class="skill-nav-button active" data-target="hard">Hard Skills</button>
                 <button class="skill-nav-button" data-target="soft">Soft Skills</button>
                 <button class="skill-nav-button" data-target="tools">Software</button>
-                <button class="skill-nav-button" data-target="languages">Programming Languages &amp; Style</button>
+                <button class="skill-nav-button" data-target="languages">Programming Languages & Style</button>
             </div>
 
             <!-- Konten Skill -->
@@ -309,7 +309,7 @@
                 <div class="committee-card reveal-item">
                     <div class="comm-date">Sept — Oct 2022</div>
                     <h3>ISC</h3>
-                    <p class="comm-role">Coordinator of Publication &amp; Design</p>
+                    <p class="comm-role">Coordinator of Publication & Design</p>
                     <p class="comm-desc">Led the division team, coordinated task distribution, and conducted weekly
                         performance evaluations.</p>
                     <div class="comm-tags">
@@ -360,88 +360,114 @@
 
             <!-- Kontainer untuk Grid Proyek -->
             <div class="project-content-container">
-                <!-- Konten untuk UI/UX Design -->
+                <!-- UI/UX (Hanya 3 - Tombol tidak akan muncul otomatis nanti) -->
                 <div id="uiux" class="project-grid active">
-                    <!-- Proyek UI/UX -->
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/UI1.png" alt="UI/UX Project 1">
+                    <a href="#" class="project-item">
+                        <img src="images/UI1.png" alt="UI/UX Project 1">
                         <div class="project-info">
-                            <h4>Platform for Games and Tournaments Streaming</h4>
-                            <p>A dedicated gaming &amp; tournament platform with dark mode and interactive components.</p>
-                            <div class="project-tags"><span>Figma</span><span>UI Design</span></div>
+                            <h4>UI/UX for Games Streaming Platform</h4>
+                            <p>A dedicated gaming & tournament platform with dark mode.</p>
+                            <div class="project-tags"><span>Figma</span><span>UI/UX Design</span></div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/UI2.png" alt="UI/UX Project 2">
+                    <a href="#" class="project-item">
+                        <img src="images/UI2.png" alt="UI/UX Project 2">
                         <div class="project-info">
-                            <h4>Antarmuka Sistem Rekrutmen</h4>
-                            <p>Committee recruitment system with 4 user roles &amp; notification alerts.</p>
-                            <div class="project-tags"><span>User Research</span><span>UI
-                                    Design</span><span>Prototyping</span></div>
+                            <h4>Recruitment System UI/UX Design</h4>
+                            <p>Designed a role-based recruitment system UI/UX with structured workflows, responsive
+                                layouts, and intuitive dashboard interactions.</p>
+                            <div class="project-tags"><span>User Research</span><span>Prototyping</span></div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/UI3.png" alt="UI/UX Project 3">
+                    <a href="#" class="project-item">
+                        <img src="images/UI3.png" alt="UI/UX Project 3">
                         <div class="project-info">
-                            <h4>Interface for Meeting Conference</h4>
-                            <p>Interface design for video conferencing application with dark mode feature.</p>
-                            <div class="project-tags"><span>Figma</span><span>UI Design</span></div>
+                            <h4>Video Conferencing App UI/UX Design</h4>
+                            <p>Designed a video conferencing UI/UX that prioritizes usability, real-time collaboration,
+                                and efficient participant management.</p>
+                            <div class="project-tags"><span>UI Design</span></div>
                         </div>
                     </a>
                 </div>
 
-                <!-- Konten untuk Web Development -->
+                <!-- Web Development (9 Project - Tombol akan muncul otomatis) -->
                 <div id="website" class="project-grid">
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/SISTEM1.png" alt="Web Project 1">
+                    <!-- 1-3 (Selalu Muncul) -->
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM1.png" alt="Web 1">
                         <div class="project-info">
-                            <h4>Landing Page for Web Development Services</h4>
-                            <p>This system is designed to help businesses build modern websites with glassmorphism
-                                effects, support for dark and light modes, and responsive design. It focuses on
-                                improving user experience and business conversions through engaging landing pages.</p>
-                            <div class="project-tags"><span>Landing Page</span><span>Modern
-                                    Design</span><span>Mode</span></div>
+                            <h4>Company Profile Landing Page</h4>
+                            <p>Developed a modern, tech-oriented company profile landing page with dark and light modes
+                                to enhance brand presence and user engagement.</p>
+                            <div class="project-tags"><span>Laravel</span><span>Landing Page</span></div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/SISTEM2.png" alt="Web Project 2">
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM2.png" alt="Web 2">
                         <div class="project-info">
-                            <h4>Sistem Informasi Pengelolaan Bantuan Sosial</h4>
-                            <p>An application for managing social assistance data, recipients, and distribution reports.
-
-                                Equipped with PDF/Excel report export to support efficiency and transparency in aid
-                                distribution.
-                            </p>
-                            <div class="project-tags"><span>Laravel</span><span>dompdf</span><span>phpspreadsheet</span>
+                            <h4>Social Assistance Management System</h4>
+                            <p>Built a web-based system to manage social assistance data, beneficiaries, and reports
+                                efficiently in a structured and centralized platform.</p>
+                            <div class="project-tags"><span>PHP</span><span>dompdf</span><span>phpspreadsheet</span>
                             </div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/SISTEM3.png" alt="Web Project 3">
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM3.png" alt="Web 3">
                         <div class="project-info">
                             <h4>Project Management ERP System</h4>
-                            <p>An ERP Project Management System is a web-based application for managing all project
-                                activities and company finances. Consisting of three user roles, this system provides
-                                integrated management features, reports, invoices, data visualization, and order
-                                notifications to monitor the number of requests in real time.</p>
-                            <div class="project-tags"><span>Orders</span><span>Financial Management</span></div>
+                            <p>Developed a comprehensive ERP system covering order management, project tracking, task
+                                workflows, HR, finance, reporting, and data visualization in one integrated platform.
+                            </p>
+                            <div class="project-tags"><span>ERP System</span><span>Project Management</span><span>Data
+                                    Visualization</span></div>
+                        </div>
+                    </a>
+                    <!-- 4-9 (Hidden Initially) -->
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM4.png" alt="Web 4">
+                        <div class="project-info">
+                            <h4>Architecture & Building Services Landing Page</h4>
+                            <p>Developed a modern landing page for an architecture service company showcasing exterior,
+                                interior, and building design services with a bold black, white, and yellow color
+                                scheme.</p>
+                            <div class="project-tags"><span>Laravel</span><span>Landing Page</span><span>Company
+                                    Profile</span></div>
+                        </div>
+                    </a>
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM5.png" alt="Web 5">
+                        <div class="project-info">
+                            <h4>Fashion Brand E-Commerce Website</h4>
+                            <p>Developing a modern and luxury-inspired fashion e-commerce website featuring a clean,
+                                exclusive design and a scalable system architecture for future growth.</p>
+                            <div class="project-tags"><span>E-Commerce</span><span>MySQL</span><span>Web
+                                    Development</span></div>
+                        </div>
+                    </a>
+                    <a href="#" class="project-item">
+                        <img src="images/SISTEM6.png" alt="Web 6">
+                        <div class="project-info">
+                            <h4>Company Profile and Admin for Foundation & Forest Therapy</h4>
+                            <p>Developed a web-based system and multi-page landing site featuring admin management,
+                                articles, online consultation, donations, and forest therapy activity content.</p>
+                            <div class="project-tags"><span>Company Profile</span></div>
                         </div>
                     </a>
                 </div>
 
-                <!-- Konten untuk Excel -->
+                <!-- Excel (3 Project) -->
                 <div id="excel" class="project-grid">
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/excel1.png" alt="Excel Project 1">
+                    <!-- Isi project excel kamu sama seperti sebelumnya -->
+                    <a href="#" class="project-item"><img src="images/excel1.png" alt="Excel 1">
                         <div class="project-info">
-                            <h4>Habit Tracker Bulanan</h4>
+                            <h4>Habit Tracker Monthly</h4>
                             <p>A template for recording and tracking daily habits each week with progress charts and
                                 monthly percentage completion.</p>
                             <div class="project-tags"><span>Concatenate</span><span>Charts</span></div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/excel2.png" alt="Excel Project 2">
+                    <a href="#" class="project-item"><img src="images/excel2.png" alt="Excel 2">
                         <div class="project-info">
                             <h4>Habit Tracker 2</h4>
                             <p>A stylish, user-friendly habit tracking sheet with trend charts, weekly evaluation
@@ -449,10 +475,9 @@
                             <div class="project-tags"><span>Sparkline</span><span>Formulas</span></div>
                         </div>
                     </a>
-                    <a href="http://localhost:8000/#" class="project-item">
-                        <img src="./index_files/excel3.png" alt="Excel Project 3">
+                    <a href="#" class="project-item"><img src="images/excel3.png" alt="Excel 3">
                         <div class="project-info">
-                            <h4>Monthly Calendar &amp; Planner</h4>
+                            <h4>Monthly Calendar & Planner</h4>
                             <p>A monthly calendar for tracking activities, tasks, and projects with goals, daily
                                 schedules, and progress charts.</p>
                             <div class="project-tags"><span>Conditional Formatting</span><span>VLOOKUP</span></div>
@@ -460,6 +485,15 @@
                     </a>
                 </div>
             </div>
+
+            <!-- Button Link Modern (Hanya satu untuk semua kategori) -->
+            <div class="project-toggle-container" id="project-toggle-wrapper" style="display: none;">
+                <a href="javascript:void(0)" class="btn-toggle-link" id="btn-toggle-projects">
+                    <span class="btn-text">View All Projects</span>
+                    <span class="btn-icon"><i class="bi bi-arrow-down-short"></i></span>
+                </a>
+            </div>
+
         </div>
     </section>
 
@@ -473,15 +507,15 @@
         <div class="certificate-grid">
             <!-- Sertifikat 1 -->
             <div class="certificate-item">
-                <img src="./index_files/sertif1.jpg" alt="Certificate 1">
+                <img src="images/sertif1.jpg" alt="Certificate 1">
                 <div class="certificate-info">
-                    <h3>Top 24 Finalists in the Data Analytics &amp; Visualization Category</h3>
+                    <h3>Top 24 Finalists in the Data Analytics & Visualization Category</h3>
                     <p>Released by: HealthKathon 2.0</p>
                 </div>
             </div>
             <!-- Sertifikat 2 -->
             <div class="certificate-item">
-                <img src="./index_files/sertif2.jpg" alt="Certificate 2">
+                <img src="images/sertif2.jpg" alt="Certificate 2">
                 <div class="certificate-info">
                     <h3>SAP Course</h3>
                     <p>Released by: Oracle</p>
@@ -489,7 +523,7 @@
             </div>
             <!-- Sertifikat 3 -->
             <div class="certificate-item">
-                <img src="./index_files/sertif3.jpg" alt="Certificate 3">
+                <img src="images/sertif3.jpg" alt="Certificate 3">
                 <div class="certificate-info">
                     <h3>Certificate of Course Completion</h3>
                     <p>Released by: MySkill</p>
@@ -527,9 +561,11 @@
                     <span>Yogyakarta, Indonesia</span>
                 </div>
                 <div class="social-links">
-                    <a href="https://id.linkedin.com/in/diva-carinda-1925a6280" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://id.linkedin.com/in/diva-carinda-1925a6280" aria-label="LinkedIn"><i
+                            class="bi bi-linkedin"></i></a>
                     <a href="https://github.com/diva1199" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                    <a href="https://www.instagram.com/diva_carind" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.instagram.com/diva_carind" aria-label="Instagram"><i
+                            class="bi bi-instagram"></i></a>
                 </div>
             </div>
 
@@ -537,14 +573,14 @@
             <div class="contact-form">
                 <form action="https://formspree.io/f/xgvnnalv" method="POST">
                     <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required="">
-                        <input type="email" name="email" placeholder="Your Email" required="">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="subject" placeholder="Subject" required="">
+                        <input type="text" name="subject" placeholder="Subject" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" required=""></textarea>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="submit-button">Send Message</button>
                 </form>
@@ -557,25 +593,27 @@
         <div class="footer-content">
             <div class="footer-logo">WEB PORTOFOLIO</div>
             <div class="footer-nav">
-                <a href="#about-details">About</a>
+                <a href="#about">About</a>
                 <a href="#skill">Skill</a>
                 <a href="#education">Education</a>
-                <a href="#organization-section">Organization</a>
+                <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#certificate">Certificate</a>
                 <a href="#contact">Contact</a>
             </div>
             <div class="footer-social">
-                <a href="https://id.linkedin.com/in/diva-carinda-1925a6280" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://id.linkedin.com/in/diva-carinda-1925a6280" aria-label="LinkedIn"><i
+                        class="bi bi-linkedin"></i></a>
                 <a href="https://github.com/diva1199" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                <a href="https://www.instagram.com/diva_carind" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.instagram.com/diva_carind" aria-label="Instagram"><i
+                        class="bi bi-instagram"></i></a>
             </div>
             <div class="footer-copy">
-                © 2024 Diva Carinda. All Rights Reserved.
+                &copy; 2024 Diva Carinda. All Rights Reserved.
             </div>
         </div>
     </footer>
-    <script src="./index_files/main.js.download"></script>
+    <script src="main.js"></script>
     <script>
         // Menjalankan semua kode setelah seluruh halaman HTML selesai dimuat
         document.addEventListener('DOMContentLoaded', () => {
@@ -1004,7 +1042,76 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnToggle = document.getElementById('btn-toggle-projects');
+            const toggleWrapper = document.getElementById('project-toggle-wrapper');
+            const projectNavButtons = document.querySelectorAll('.project-nav-button');
 
+            function updateProjectVisibility() {
+                // 1. Cari kategori yang sedang aktif (yang punya class .active)
+                const activeGrid = document.querySelector('.project-grid.active');
+                if (!activeGrid) return;
 
+                const projects = activeGrid.querySelectorAll('.project-item');
+                const isExpanded = btnToggle.classList.contains('active');
 
-</body></html>
+                // 2. Jika project > 3, tampilkan container tombol, jika tidak sembunyikan
+                if (projects.length > 3) {
+                    toggleWrapper.style.display = 'flex';
+                } else {
+                    toggleWrapper.style.display = 'none';
+                }
+
+                // 3. Atur visibilitas item
+                projects.forEach((project, index) => {
+                    if (index > 2) { // Item ke-4 dan seterusnya
+                        if (isExpanded) {
+                            project.classList.remove('is-hidden');
+                            project.classList.add('is-showing');
+                        } else {
+                            project.classList.add('is-hidden');
+                            project.classList.remove('is-showing');
+                        }
+                    } else {
+                        project.classList.remove('is-hidden');
+                    }
+                });
+            }
+
+            // Event Klik pada Tombol "View All"
+            btnToggle.addEventListener('click', () => {
+                btnToggle.classList.toggle('active');
+                const btnText = btnToggle.querySelector('.btn-text');
+
+                if (btnToggle.classList.contains('active')) {
+                    btnText.innerText = 'Show Less';
+                } else {
+                    btnText.innerText = 'View All Projects';
+                    // Scroll halus ke atas section project saat "Show Less" diklik
+                    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+                }
+
+                updateProjectVisibility();
+            });
+
+            // Jalankan fungsi saat ganti tab kategori
+            projectNavButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Beri sedikit delay agar class .active berpindah dulu di grid
+                    setTimeout(() => {
+                        btnToggle.classList.remove('active'); // Reset tombol jadi "View All"
+                        btnToggle.querySelector('.btn-text').innerText = 'View All Projects';
+                        updateProjectVisibility();
+                    }, 10);
+                });
+            });
+
+            // Jalankan saat pertama kali load
+            updateProjectVisibility();
+        });
+    </script>
+
+</body>
+
+</html>
