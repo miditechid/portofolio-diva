@@ -812,6 +812,17 @@ nav .nav-buttons .icon-button:hover {
     background-clip: text;
 }
 
+.skill-item img {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+    vertical-align: middle;
+
+    filter: brightness(0) saturate(100%) 
+            invert(48%) sepia(79%) saturate(2476%) 
+            hue-rotate(320deg) brightness(101%) contrast(101%);
+}
+
 .skill-item span {
     font-size: 16px;
     font-weight: 500;
